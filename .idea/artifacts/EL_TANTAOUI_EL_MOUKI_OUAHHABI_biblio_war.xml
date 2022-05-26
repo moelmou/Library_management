@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EL-TANTAOUI_EL-MOUKI_OUAHHABI_biblio:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>EL-TANTAOUI_EL-MOUKI_OUAHHABI_biblio</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="EL-TANTAOUI_EL-MOUKI_OUAHHABI_biblio-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="EL-TANTAOUI_EL-MOUKI_OUAHHABI_biblio:war exploded" />
+    </root>
+  </artifact>
+</component>
