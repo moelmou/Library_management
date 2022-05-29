@@ -1,13 +1,15 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Library managment</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h1>Library management </h1>
+<a href="addstudentform.jsp">Add student</a>
+<a href="viewstudents.jsp">View students</a>
+<a href="addbookform.jsp">Add book</a>
+<a href="viewbooks.jsp">View books</a>
+
 </body>
 </html>
