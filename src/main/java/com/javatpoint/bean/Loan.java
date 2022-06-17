@@ -1,33 +1,41 @@
 package com.javatpoint.bean;
 
-import java.util.Date;
-
 public class Loan {
-    Date DateEmprunt;
-    int EtuNum;
+    String DateEmprunt;
+    String EtuNum;
     int LivNum;
 
+    int remis_le;
+
+    public int getRemis_le() {
+        return remis_le;
+    }
+
+    public void setRemis_le(int remis_le) {
+        this.remis_le = remis_le;
+    }
 
     public Loan() {
     }
 
-    public void setDateEmprunt(Date dateEmprunt) {
+    public void setDateEmprunt(String dateEmprunt) {
         DateEmprunt = dateEmprunt;
     }
 
-    public void setEtuNum(int etuNum) {
-        EtuNum = etuNum;
+    public void setEtuNum(String etuNum) {
+
+         EtuNum = etuNum;
     }
 
     public void setLivNum(int livNum) {
         LivNum = livNum;
     }
 
-    public Date getDateEmprunt() {
+    public String getDateEmprunt() {
         return DateEmprunt;
     }
 
-    public int getEtuNum() {
+    public String getEtuNum() {
         return EtuNum;
     }
 

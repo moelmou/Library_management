@@ -1,18 +1,61 @@
-<a href="viewbooks.jsp">View All Records</a><br/>
+
+<div class="limiter">
+  <div class="container-login100">
+    <div class="wrap-login100">
+      <a href="viewbooks.jsp">View All Records</a><br/>
 
 <h1>Add New Book</h1>
-<form action="addbook.jsp" method="post">
-  <table>
-    <tr><td>Id:</td><td>
-      <input type="text" name="Id"/></td></tr>
-    <tr><td>Titre:</td><td>
-      <input type="text" name="titre"/></td></tr>
-    <tr><td>N. edition:</td><td>
-      <input type="text" name="numero_edition"/></td></tr>
-    <tr><td>Date :</td><td>
-      <input type="text" name="date"/></td></tr>
-    <tr><td>Stock:</td><td>
-      <input type="text" name="stock"/></td></tr>
-    <tr><td colspan="2"><input type="submit" value="Add Book"/></td></tr>
-  </table>
+<form class="login100-form validate-form" action="addbook.jsp" method="post">
+  <span class="login100-form-title p-b-26">
+					</span>
+      <div class="wrap-input100 validate-input" >
+      <input type="text"  placeholder="Titre" name="titre"/></td></tr>
+        <span class="focus-input100"></span>
+      </div>
+  <div class="wrap-input100 validate-input" >
+    <input type="text" placeholder="N. edition" name="numero_edition"/></td></tr>
+    <span class="focus-input100" ></span>
+  </div>
+  <div class="wrap-input100 validate-input" >
+    <input type="text"  placeholder="Date" name="date"/></td></tr>
+    <span class="focus-input100"></span>
+  </div>
+  <div class="wrap-input100 validate-input">
+  <input type="text" placeholder="Stock" name="stock"/></td></tr>
+  <span class="focus-input100" ></span>
+</div>
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button type="submit" class="login100-form-btn">
+        Add
+      </button>
+    </div>
+  </div>
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button class="login100-form-btn"><a class="login100-form-btn" href="viewbooks.jsp">Cancel</a>
+      </button>
+    </div>
+  </div>
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+      <button class="login100-form-btn"><a class="login100-form-btn" href="index.jsp">Home</a>
+      </button>
+    </div>
+  </div>
+  <div class="text-center p-t-115">
+						<span class="txt1">
+
+						</span>
+
+    <a class="txt2" href="#">
+
+    </a>
+  </div>
 </form>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,15 @@ package com.javatpoint.bean;
 
 public class Student {
     String nom, prenom, filiere, CIN;
+    int counts;
+
+    public int getCounts() {
+        return counts;
+    }
+
+    public void setCounts(int counts) {
+        this.counts = counts;
+    }
 
     public Student(String nom, String prenom, String filiere, String CIN) {
         this.nom=nom;
